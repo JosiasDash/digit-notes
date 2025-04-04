@@ -8,8 +8,8 @@ A successful POST request typically returns a `200 OK` or `201 Created` response
 ##### Example
 ``` json 
 {
-	"email": "hannieldegbelo@gmail.com",
-    "password": "Hanniel2025;"
+	"email": "johndoe@fake.com",
+    "password": "Johndoe2025"
 }
 ```
 
