@@ -15,7 +15,9 @@ function cryptPassword(password) {
 }
 
 function generate_token(payload) {
-    return jwt.sign(payload, process.env.HOST_SECRET);
+    return jwt.sign(payload, process.env.HOST_SECRET, {
+        expiresIn: '1h'
+    });
 }
 
 module.exports = {isValidEmail, cryptPassword, generate_token};
